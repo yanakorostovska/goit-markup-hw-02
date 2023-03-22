@@ -55,12 +55,19 @@ color: #2E2F42;
      font-size: 16px;
      line-height: 1.5; 
      color: #2e2f42;}
+  .header-list:hover {
+      color: #404bbf;
+  }
+
+  .header-list:focus {
+      color: #404bbf;
+  }
 
 
 
-.header-link:hover{color: #404bbf }
+.header-link:hover{color: #404bbf; }
 
-.header-link:focus{ color: #404bbf }
+.header-link:focus{ color: #404bbf;}
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -75,9 +82,15 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455;  
 }
+.header-mail:hover {
+    color: #404bbf;
+}
+.header-mail:focus {
+    color: #404bbf;
+}
 
 .hero {
-    background-color:#2e2f42 ;
+    background-color:#2e2f42;
     height: 600px;
     left: 0px;
     top: 72px;}
@@ -86,7 +99,8 @@ color: #2E2F42;
     }
 
 .hero-button:focus{color: #404bbf;
-background-color: #404bbf; }
+background-color: #404bbf; 
+}
 .hero-button{
 font-family: 'Roboto', sans-serif;   
 font-weight: 500;
