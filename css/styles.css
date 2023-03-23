@@ -1,12 +1,15 @@
-.root {
+:root {
  --main-title-color: #ffffff;
- --second-color: #4d5ae5;
+ --second-color: #2e2f42;
+--main-btn-color: #404bbf;
+--second-btn-color: #4D5AE5;
+--address-color: #434455;
 }
 body{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
-    background-color: #ffffff;
+    background-color: var(--main-title-color);
     }
 .list{
     list-style: none ;
@@ -38,59 +41,59 @@ line-height: 1.7;
 display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42; 
+color: var(--second-color); 
 }
 .address{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    color: #434455;
+    color:var(--address-color);
     }
 .header-item {
     font-weight: 500;
      font-size: 16px;
      line-height: 1.5; 
-     color: #2e2f42;}
+     color: var(--second-color);}
   .header-list:hover {
-      color: #404bbf;
+      color: var(--main-btn-color);
   }
 .header-list:focus {
-      color: #404bbf;
+      color: var(--main-btn-color);
   }
-.header-link:hover{color: #404bbf; }
+.header-link:hover{color: var(--main-btn-color); }
 
-.header-link:focus{ color: #404bbf;}
+.header-link:focus{ color: var(--main-btn-color);}
 .header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; 
   letter-spacing: 0.02em;
- color: #2e2f42;
+ color: var(--second-color);
 }
 .header-mail {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;  
+    color: var(--address-color);  
 }
 .header-mail:hover {
-    color: #404bbf;
+    color: var(--main-btn-color);
 }
 .header-mail:focus {
-    color: #404bbf;
+    color: var(--main-btn-color);
 }
 .hero {
-    background-color:#2e2f42;
+    background-color: var(--second-color);
     height: 600px;
     left: 0px;
     top: 72px;}
- .hero-button:hover{color: #404bbf;
- background-color: #404bbf;
+ .hero-button:hover{color: var(--main-btn-color);
+ background-color: var(--main-btn-color);
     }
-.hero-button:focus{color: #404bbf;
-background-color: #404bbf; 
+.hero-button:focus{color: var(--main-btn-color);
+background-color: var(--main-btn-color); 
 }
 .hero-button{
 font-family: 'Roboto', sans-serif;   
@@ -100,8 +103,8 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #ffffff;
-background-color: #4D5AE5;
+color: var(--main-title-color);
+background-color: var(--second-btn-color);
 cursor: pointer;
 }
 .hero-title{
@@ -110,7 +113,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #ffffff;
+color: var(--main-title-color);
 }
 .post{
 width: 264px;
@@ -119,21 +122,21 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--second-color);
 }
 .text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--main-text);
 }
 .hero-title-two{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
- color: #2E2F42;
+ color: var(--second-color);
 }
 .section-four-title{
     font-size: 36px;
@@ -141,7 +144,7 @@ color: #434455;
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
-   color: #2E2F42;
+   color: var(--second-color);
   }  
 .section-four{
     background: #f4f4fd;
@@ -151,18 +154,18 @@ color: #434455;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--second-color);
 }
 .section-four-item{
-    background-color: #ffffff;
+    background-color: var(--main-title-color);
 }
 .profession{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text);
 }
 .footer{
-    background-color: #2E2F42;
+    background-color: var(--second-color);
 }
 .footer-logotype{
     color: #f4f4fd;
@@ -176,7 +179,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 }
 .root{
-    background-color: #ffffff;
+    background-color: var(--main-title-color);
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -211,38 +214,38 @@ line-height: 1.17;
 display: flex;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42; 
+color: var(--second-color); 
 }
 .address{
         line-height: 1.5;
-        color: #434455;
+        color: var(--address-color);
         }
  .header-item {
         font-weight: 500;
          font-size: 16px;
          line-height: 1.5; 
-         color: #2e2f42
+         color: var(--second-color)
         }
  .header-link {
           font-weight: 500;
           font-size: 16px;
           line-height: 1.5; 
           letter-spacing: 0.02em;
-         color: #2e2f42;
+         color: var(--second-color);
         }
  .header-mail {
             font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #434455;  
+            color: var(--address-color);  
         }
  .header-phone {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--address-color);
         }
 .portfolio{
    font-family: 'Roboto', sans-serif ; 
@@ -256,13 +259,13 @@ letter-spacing: 0.04em;
 border: none;
 cursor: pointer;
 background: #F4F4FD;
-color: #4D5AE5;
+color: var(--second-btn-color);
 }
-.portfolio-btn:hover{color: #ffffff ;
-  background-color: #404bbf;  
+.portfolio-btn:hover{color: var(--main-title-color) ;
+  background-color: var(--main-btn-color);  
 }
-.portfolio-btn:focus{color: #ffffff ;
-    background-color: #404bbf;}
+.portfolio-btn:focus{color: var(--main-title-color) ;
+    background-color: var(--main-btn-color);}
 .work-item {
   font-family:'Roboto',sans-serif ;
   font-style: normal;
@@ -270,17 +273,17 @@ color: #4D5AE5;
    line-height: 1.5; 
   letter-spacing: 0.04em;  
 }
-.list{
- list-style: none;
+ .list-style{
+list-style:  none;
+color: #2E2F42;}
  
- color: #2E2F42;   
-}
+    
 .service-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--second-color);
 }
 .service-text{
     font-size: 16px;
