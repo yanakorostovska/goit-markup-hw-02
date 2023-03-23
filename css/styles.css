@@ -14,7 +14,6 @@ body{
 .link{
     text-decoration: none ;
 }
-
 .header {
     background-color: var(--main-title-color);
 }
@@ -41,8 +40,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42; 
 }
-
-
 .address{
     font-family: 'Roboto';
     font-style: normal;
@@ -58,13 +55,9 @@ color: #2E2F42;
   .header-list:hover {
       color: #404bbf;
   }
-
-  .header-list:focus {
+.header-list:focus {
       color: #404bbf;
   }
-
-
-
 .header-link:hover{color: #404bbf; }
 
 .header-link:focus{ color: #404bbf;}
@@ -88,7 +81,6 @@ color: #2E2F42;
 .header-mail:focus {
     color: #404bbf;
 }
-
 .hero {
     background-color:#2e2f42;
     height: 600px;
@@ -97,7 +89,6 @@ color: #2E2F42;
  .hero-button:hover{color: #404bbf;
  background-color: #404bbf;
     }
-
 .hero-button:focus{color: #404bbf;
 background-color: #404bbf; 
 }
@@ -152,8 +143,7 @@ color: #434455;
     letter-spacing: 0.02em;
    color: #2E2F42;
   }  
-
-  .section-four{
+.section-four{
     background: #f4f4fd;
   }
 .section-four-photo{
@@ -171,7 +161,6 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .footer{
     background-color: #2E2F42;
 }
@@ -186,7 +175,6 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 }
-
 .root{
     background-color: #ffffff;
 }
@@ -198,7 +186,6 @@ body{
 .list{
     list-style: none ;
 }
-
 .link{
     text-decoration: none ;}
 .header {
@@ -226,7 +213,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42; 
 }
-
 .address{
         line-height: 1.5;
         color: #434455;
@@ -261,10 +247,6 @@ color: #2E2F42;
 .portfolio{
    font-family: 'Roboto', sans-serif ; 
 }
-
-
-
-
 .portfolio-btn  {
 font-family: 'Roboto', sans-serif ;
 font-size: 16px;
@@ -275,26 +257,19 @@ border: none;
 cursor: pointer;
 background: #F4F4FD;
 color: #4D5AE5;
-
 }
 .portfolio-btn:hover{color: #ffffff ;
   background-color: #404bbf;  
-
 }
-
 .portfolio-btn:focus{color: #ffffff ;
     background-color: #404bbf;}
 .work-item {
   font-family:'Roboto',sans-serif ;
   font-style: normal;
-   
    font-size: 16px;
    line-height: 1.5; 
-  
-   letter-spacing: 0.04em;  
+  letter-spacing: 0.04em;  
 }
-
-
 .list{
  list-style: none;
  
