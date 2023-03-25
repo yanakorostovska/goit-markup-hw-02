@@ -4,6 +4,8 @@
 --main-btn-color: #404bbf;
 --second-btn-color: #4D5AE5;
 --address-color: #434455;
+--first-logo-color: #4d5ae5;
+--footer-second-color: #f4f4fd;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -29,7 +31,7 @@ body{
      display: flex;
      letter-spacing:  0.03em;
      text-transform: uppercase;
-      color:  #4d5ae5;
+      color: var(--first-logo-color)
 }
 .header-logotype {
 width: 71px;
@@ -86,17 +88,15 @@ color: var(--second-color);
 }
 .hero {
     background-color: var(--second-color);
-    height: 600px;
-    left: 0px;
-    top: 72px;}
- .hero-button:hover{color: var(--main-btn-color);
- background-color: var(--main-btn-color);
-    }
+}
+ .hero-button:hover{ 
+    background-color: var(--main-btn-color);
+}
 .hero-button:focus{color: var(--main-btn-color);
 background-color: var(--main-btn-color); 
 }
 .hero-button{
-font-family: 'Roboto', sans-serif;   
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -168,7 +168,7 @@ color: var(--main-text);
     background-color: var(--second-color);
 }
 .footer-logotype{
-    color: #f4f4fd;
+    color: var(--footer-second-color);
 
 }
 .footer-text{
@@ -176,16 +176,12 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--footer-second-color);
 }
 .root{
     background-color: var(--main-title-color);
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.02em;
-    color: #434455;
-    }
+
 .list{
     list-style: none ;
 }
@@ -202,7 +198,7 @@ body{
      display: flex;
      letter-spacing:  0.03em;
      text-transform: uppercase;
-      color:  #4d5ae5;
+      color: var(--first-logo-color);
 }
 .header-logotype {
 width: 71px;
@@ -258,7 +254,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 border: none;
 cursor: pointer;
-background: #F4F4FD;
+background: var(--footer-second-color);
 color: var(--second-btn-color);
 }
 .portfolio-btn:hover{color: var(--main-title-color) ;
@@ -275,7 +271,7 @@ color: var(--second-btn-color);
 }
  .list-style{
 list-style:  none;
-color: #2E2F42;}
+color: var(--second-color);}
  
     
 .service-title{
@@ -290,5 +286,5 @@ color: #2E2F42;}
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: #434455;
+    color:var(--address-color);
 }
