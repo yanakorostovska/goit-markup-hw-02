@@ -6,6 +6,7 @@
 --address-color: #434455;
 --first-logo-color: #4d5ae5;
 --footer-second-color: #f4f4fd;
+--main-text-color: #434455;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -116,8 +117,6 @@ letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
 .post{
-width: 264px;
-height: 24px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -129,7 +128,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--main-text);
+color: var(--main-text-color);
 }
 .hero-title-two{
   font-size: 36px;
@@ -162,7 +161,7 @@ color: var(--main-text);
 .profession{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text);
+    color: var(--main-text-color);
 }
 .footer{
     background-color: var(--second-color);
@@ -174,7 +173,7 @@ color: var(--main-text);
 .footer-text{
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--footer-second-color);
 }
@@ -216,12 +215,7 @@ color: var(--second-color);
         line-height: 1.5;
         color: var(--address-color);
         }
- .header-item {
-        font-weight: 500;
-         font-size: 16px;
-         line-height: 1.5; 
-         color: var(--second-color)
-        }
+
  .header-link {
           font-weight: 500;
           font-size: 16px;
